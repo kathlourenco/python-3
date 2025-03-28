@@ -1,5 +1,8 @@
-valor1 = int(input("Digite as horas: "))
-valor2 = int(input("Digite os minutos em segundos: "))
+horas = int(input('Digite as horas: '))
+minutos = int(input('Digite os minutos: '))
 
-if valor1 
 
+if horas >= 0 and horas <= 23 and minutos >=0 and minutos <= 59:
+    print('horas e minutos validos')
+else:
+    print("Horas e minutos inválidos")
